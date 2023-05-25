@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "SearXNG — Privacy Search Engine",
-  "version": "1.4",
-  "author": "Erghel",
+  "version": "1.1",
+  "author": "Shrugal",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
@@ -19,10 +19,10 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "SearXNG",
-      "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://searx.be/search?q={searchTerms}",
+      "keyword": "@searxng, @searx, @sx, @sxng, @xng",
+      "search_url": "https://search.nhonnef.de/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
+      "suggest_url": "https://search.nhonnef.de/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
